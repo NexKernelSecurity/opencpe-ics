@@ -15,7 +15,7 @@ score and an evidence trail** to every mapping, and publishes the result in
 the same format as [anchore/nvd-data-overrides](https://github.com/anchore/nvd-data-overrides),
 so existing tooling can consume it directly.
 
-Built and maintained by **NEXKERNEL** (Irbid, Jordan).
+Built and maintained by **NEXKERNEL**.
 
 ---
 
