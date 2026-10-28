@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "opencpe-ics"
+version = "0.1.0"
+description = "Open, evidence-backed CPE enrichment for ICS/OT CVEs that NVD left unenriched"
+readme = "README.md"
+license = { text = "Apache-2.0" }
+authors = [{ name = "NEXKERNEL" }]
+requires-python = ">=3.10"
+dependencies = ["ijson>=3.2", "rapidfuzz>=3.0"]
+keywords = ["cve", "cpe", "nvd", "ics", "ot", "vulnerability-management", "scada"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: Apache Software License",
+  "Topic :: Security",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+opencpe-ics = "opencpe_ics.cli:main"
+
+[tool.setuptools]
+packages = ["opencpe_ics"]

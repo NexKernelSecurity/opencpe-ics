@@ -1,0 +1,53 @@
+name: Refresh enrichment data
+
+on:
+  schedule:
+    - cron: "17 4 * * *"   # daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: pip install -e .
+
+      - name: Fetch sources
+        run: |
+          mkdir -p work && cd work
+          curl -sSL -o CVE-all.json.xz https://github.com/fkie-cad/nvd-json-data-feeds/releases/latest/download/CVE-all.json.xz
+          git clone -q --depth 1 --filter=blob:none --sparse https://github.com/cisagov/CSAF csaf
+          git -C csaf sparse-checkout set csaf_files/OT/white/2025 csaf_files/OT/white/2026
+          git clone -q --depth 1 --filter=blob:none --no-checkout https://github.com/anchore/nvd-data-overrides anchore
+
+      - name: Build corpus and aliases
+        run: |
+          opencpe-ics corpus work/CVE-all.json.xz work/corpus.jsonl
+          opencpe-ics learn work/corpus.jsonl work/aliases.json
+
+      - name: Find gap and enrich
+        run: |
+          opencpe-ics gap --csaf work/csaf/csaf_files/OT/white --anchore work/anchore \
+            --corpus work/corpus.jsonl --out reports/ics-gap-latest.csv
+          rm -rf data/feed data/review
+          opencpe-ics enrich --corpus work/corpus.jsonl --aliases work/aliases.json \
+            --cves reports/ics-gap-latest.csv --out data
+          mv data/summary.csv reports/enrichment-summary.csv
+
+      - name: Commit
+        run: |
+          git config user.name "opencpe-ics bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data reports
+          git diff --cached --quiet || git commit -m "data: daily refresh $(date -u +%F)"
+          git push
