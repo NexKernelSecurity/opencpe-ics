@@ -144,3 +144,44 @@ def test_cna_supplied_cpe_vendor_is_corrected_to_nvd_spelling():
                     "cpes": ["cpe:2.3:o:palo_alto_networks:pan-os:*:*:*:*:*:*:*:*"]}])[0]
     assert x.vendor == "paloaltonetworks" and x.method == "cna-supplied, vendor corrected"
     assert x.level == "high"
+
+
+def test_reviewed_records_replace_machine_output(tmp_path):
+    import json
+    from opencpe_ics.enrich import enrich
+    corpus = tmp_path / "c.jsonl"
+    corpus.write_text(json.dumps({"id": "CVE-2026-0001", "published": "2026-05-01", "status": "Deferred",
+                                  "source": "x", "affected": [{"vendor": "ACME", "product": "Widget", "source": "x"}],
+                                  "cpes": []}) + "\n")
+    rev = tmp_path / "reviewed" / "2026"
+    rev.mkdir(parents=True)
+    rec = {"_annotation": {"cve_id": "CVE-2026-0001", "reviewed_by": "student"},
+           "cve": {"configurations": [{"nodes": [{"operator": "OR", "negate": False, "cpeMatch": [
+               {"vulnerable": True, "criteria": "cpe:2.3:o:acme:widget_firmware:*:*:*:*:*:*:*:*"}]}]}]}}
+    (rev / "CVE-2026-0001.json").write_text(json.dumps(rec))
+    out = tmp_path / "out"
+    out.mkdir()
+    s = enrich(corpus, Matcher(AliasTable()), ["CVE-2026-0001"], out, reviewed_dir=tmp_path / "reviewed")
+    assert s[0]["level"] == "reviewed" and s[0]["cpes"] == "o:acme:widget_firmware"
+    assert json.loads((out / "feed" / "2026" / "CVE-2026-0001.json").read_text())["_annotation"]["reviewed_by"] == "student"
+    assert not (out / "review" / "2026" / "CVE-2026-0001.json").exists()
+
+
+def test_validate_reviewed_record(tmp_path):
+    import json
+    from opencpe_ics.validate import check_file
+    d = tmp_path / "2026"
+    d.mkdir()
+    good = {"_annotation": {"cve_id": "CVE-2026-0001", "reviewed_by": "@student",
+                            "review_sources": ["https://www.cisa.gov/news-events/ics-advisories/icsa-26-001-01"]},
+            "cve": {"configurations": [{"nodes": [{"operator": "OR", "negate": False, "cpeMatch": [
+                {"vulnerable": True, "criteria": "cpe:2.3:o:acme:widget_firmware:*:*:*:*:*:*:*:*",
+                 "versionEndExcluding": "2.1"}]}]}]}}
+    f = d / "CVE-2026-0001.json"
+    f.write_text(json.dumps(good))
+    assert check_file(f) == []
+    good["_annotation"].pop("reviewed_by")
+    good["cve"]["configurations"][0]["nodes"][0]["cpeMatch"][0]["criteria"] = "cpe:2.3:o:acme:widget"
+    f.write_text(json.dumps(good))
+    errs = check_file(f)
+    assert any("reviewed_by" in e for e in errs) and any("13 fields" in e for e in errs)

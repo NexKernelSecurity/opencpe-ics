@@ -1,0 +1,26 @@
+name: Wrong CPE in the feed
+description: A record in data/feed names the wrong product, vendor or versions
+title: "Wrong CPE: CVE-"
+labels: ["data-error"]
+body:
+  - type: input
+    id: cve
+    attributes:
+      label: CVE ID
+      placeholder: CVE-2026-12345
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong
+      description: Which CPE or version range is incorrect, and what it should be
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: Link to the vendor advisory or NVD CPE dictionary entry that shows the correct value
+    validations:
+      required: true

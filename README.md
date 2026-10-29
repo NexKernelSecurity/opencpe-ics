@@ -70,9 +70,10 @@ Full per-CVE results: [`reports/evaluation.csv`](reports/evaluation.csv).
 ## What is published
 
 ```
-data/feed/<year>/CVE-*.json     high + medium confidence  -> safe for scanners
-data/review/<year>/CVE-*.json   low confidence            -> needs a human (PRs welcome)
-reports/enrichment-summary.csv  one line per gap CVE
+data/feed/<year>/CVE-*.json       high + medium confidence, plus human-reviewed records -> for scanners
+data/review/<year>/CVE-*.json     low confidence            -> needs a human (PRs welcome)
+data/reviewed/<year>/CVE-*.json   human-confirmed records   -> never overwritten by the refresh
+reports/enrichment-summary.csv    one line per gap CVE
 ```
 
 Current run over the 531 gap CVEs: **164 in the feed** (133 high, 31 medium), **362 for review**,
@@ -140,8 +141,16 @@ See [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) for the ful
 
 ## Contributing
 
-The most valuable contribution is reviewing `data/review/`: confirm or correct a mapping and open a PR moving
-the file to `data/feed/` with your correction. Corrections are fed back as aliases in the next release.
+The most valuable contribution is reviewing a CVE from `data/review/`: check the tool's guess against the
+vendor's advisory and the NVD CPE dictionary, then add the corrected record under `data/reviewed/`.
+It takes about 15 minutes and needs no code. The step-by-step guide is in [CONTRIBUTING.md](CONTRIBUTING.md).
+
+Found a wrong CPE in the feed? Open a *Wrong CPE in the feed* issue with a link to the vendor's advisory.
+
+## Citing
+
+If you use the tool or the dataset in research, please cite it using [`CITATION.cff`](CITATION.cff)
+(GitHub's *Cite this repository* button gives APA and BibTeX).
 
 ## License
 

@@ -37,6 +37,7 @@ def main(argv=None):
     p.add_argument("--corpus", required=True); p.add_argument("--aliases", required=True)
     p.add_argument("--cves", required=True, help="CSV with a 'cve' column (rows with gap=False are skipped) or one CVE per line")
     p.add_argument("--out", default="out"); p.add_argument("--min-level", default="medium", choices=["low", "medium", "high"])
+    p.add_argument("--reviewed", help="folder of human-reviewed records (data/reviewed); they replace machine output")
 
     p = sub.add_parser("evaluate", help="measure accuracy against NVD-analysed CVEs")
     p.add_argument("corpus"); p.add_argument("gap_csv"); p.add_argument("--cutoff", required=True)
@@ -64,7 +65,8 @@ def main(argv=None):
         from .matcher import Matcher
         ids = _read_ids(Path(a.cves))
         out = Path(a.out); out.mkdir(parents=True, exist_ok=True)
-        summary = enrich(Path(a.corpus), Matcher(AliasTable.load(Path(a.aliases))), ids, out, a.min_level)
+        summary = enrich(Path(a.corpus), Matcher(AliasTable.load(Path(a.aliases))), ids, out, a.min_level,
+                         Path(a.reviewed) if a.reviewed else None)
         print(Counter(s["outcome"] for s in summary).most_common())
         print("best level per CVE:", Counter(s["level"] for s in summary if s["level"]).most_common())
     elif a.cmd == "evaluate":

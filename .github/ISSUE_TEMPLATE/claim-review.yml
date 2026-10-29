@@ -1,0 +1,17 @@
+name: Claim a CVE for review
+description: Reserve a CVE from data/review so nobody else works on it
+title: "Review: CVE-"
+labels: ["review"]
+body:
+  - type: input
+    id: cve
+    attributes:
+      label: CVE ID
+      description: Must have a file in data/review/<year>/
+      placeholder: CVE-2026-12345
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        Follow the steps in [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md#review-a-cve-about-15-minutes), then open a pull request that adds `data/reviewed/<year>/<CVE>.json` and mentions this issue.

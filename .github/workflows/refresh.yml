@@ -10,12 +10,12 @@ permissions:
 
 jobs:
   refresh:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 60
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -41,7 +41,7 @@ jobs:
             --corpus work/corpus.jsonl --out reports/ics-gap-latest.csv
           rm -rf data/feed data/review
           opencpe-ics enrich --corpus work/corpus.jsonl --aliases work/aliases.json \
-            --cves reports/ics-gap-latest.csv --out data
+            --cves reports/ics-gap-latest.csv --reviewed data/reviewed --out data
           mv data/summary.csv reports/enrichment-summary.csv
 
       - name: Commit

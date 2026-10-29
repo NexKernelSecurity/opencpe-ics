@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: How to review a CVE
+    url: https://github.com/NexKernelSecurity/opencpe-ics/blob/main/CONTRIBUTING.md
+    about: Step-by-step guide for contributors

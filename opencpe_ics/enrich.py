@@ -43,7 +43,10 @@ def record(cid: str, rec: dict, maps, generated: str) -> dict:
     }
 
 
-def enrich(corpus: Path, matcher: Matcher, cve_ids: list[str], out_dir: Path, min_level: str = "medium"):
+def enrich(corpus: Path, matcher: Matcher, cve_ids: list[str], out_dir: Path, min_level: str = "medium",
+           reviewed_dir: Path | None = None):
+    """reviewed_dir: human-confirmed records (data/reviewed/<year>/CVE-*.json). They are
+    never regenerated: each is copied into the feed as-is and replaces machine output."""
     want = set(cve_ids)
     recs = {}
     with open(corpus) as fh:
@@ -53,7 +56,20 @@ def enrich(corpus: Path, matcher: Matcher, cve_ids: list[str], out_dir: Path, mi
                 recs[cid] = json.loads(line)
     generated = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     summary = []
-    for cid in sorted(want):
+    reviewed = {}
+    if reviewed_dir and reviewed_dir.exists():
+        reviewed = {p.stem: p for p in reviewed_dir.glob("*/CVE-*.json")}
+    for cid in sorted(want | set(reviewed)):
+        if cid in reviewed:
+            dst = out_dir / "feed" / cid.split("-")[1] / f"{cid}.json"
+            dst.parent.mkdir(parents=True, exist_ok=True)
+            data = json.loads(reviewed[cid].read_text())  # must be valid JSON
+            dst.write_text(json.dumps(data, indent=2) + "\n")
+            cpes = [m.get("criteria", "") for c in data["cve"]["configurations"]
+                    for n in c["nodes"] for m in n["cpeMatch"]]
+            summary.append({"cve": cid, "outcome": "feed", "level": "reviewed",
+                            "cpes": "|".join(sorted({":".join(x.split(":")[2:5]) for x in cpes}))})
+            continue
         rec = recs.get(cid)
         if not rec:
             summary.append({"cve": cid, "outcome": "not in NVD corpus", "level": "", "cpes": ""})

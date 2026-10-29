@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use OpenCPE-ICS or its dataset, please cite it as below."
+title: "OpenCPE-ICS: open, evidence-backed CPE enrichment for ICS/OT CVEs"
+type: software
+authors:
+  - family-names: "BaniYounis"
+    given-names: "Yacoub"
+    affiliation: "NEXKERNEL"
+repository-code: "https://github.com/NexKernelSecurity/opencpe-ics"
+license: Apache-2.0
+version: 0.1.0
+date-released: "2026-10-29"
+keywords:
+  - CVE
+  - CPE
+  - NVD
+  - ICS
+  - OT security
+  - vulnerability management
