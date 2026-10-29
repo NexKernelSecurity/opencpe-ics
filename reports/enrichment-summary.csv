@@ -366,7 +366,6 @@ CVE-2026-67568,review,low,a:quanovate:mira_android_app(low)|o:quanovate:mira_fir
 CVE-2026-67578,review,low,o:furuno_electric:fa-50_firmware(low)
 CVE-2026-68067,review,low,a:quanovate:mira_android_app(low)|o:quanovate:mira_firmware(low)
 CVE-2026-68068,review,low,a:toptech:tms7(low)|a:toptech:tophat(low)
-CVE-2026-6807,review,low,a:nsa:grassmarlin(low)
 CVE-2026-68070,review,low,a:digital_watchdog:va1g4_recorder(low)|a:digital_watchdog:vg4_recorder(low)|a:digital_watchdog:vmax_a1_plus(low)|o:digital_watchdog:vmax_a1_g4_dvr_firmware(low)|o:digital_watchdog:vmax_ip_g4_nvr_firmware(low)
 CVE-2026-6824,review,low,a:cpplusworld:cp-unr-108f1_hardware(low)|a:cpplusworld:cp-unr-108f1_system(low)|a:cpplusworld:cp-unr-108f1_web(low)
 CVE-2026-6865,feed,medium,o:schneider-electric:easylogic_t150_firmware(medium)|o:schneider-electric:saitel_dp_firmware(medium)
