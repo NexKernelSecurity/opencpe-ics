@@ -1,5 +1,9 @@
 # OpenCPE-ICS
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23750373.svg)](https://doi.org/10.5281/zenodo.23750373)
+[![Tests](https://github.com/NexKernelSecurity/opencpe-ics/actions/workflows/tests.yml/badge.svg)](https://github.com/NexKernelSecurity/opencpe-ics/actions/workflows/tests.yml)
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+
 **Open, evidence-backed CPE data for industrial (ICS/OT) vulnerabilities that NVD no longer enriches.**
 
 A vulnerability scanner can only report a CVE on your asset if the CVE carries a
@@ -150,7 +154,8 @@ Found a wrong CPE in the feed? Open a *Wrong CPE in the feed* issue with a link 
 ## Citing
 
 If you use the tool or the dataset in research, please cite it using [`CITATION.cff`](CITATION.cff)
-(GitHub's *Cite this repository* button gives APA and BibTeX).
+(GitHub's *Cite this repository* button gives APA and BibTeX), or cite the archived release:
+[doi:10.5281/zenodo.23750373](https://doi.org/10.5281/zenodo.23750373).
 
 ## License
 

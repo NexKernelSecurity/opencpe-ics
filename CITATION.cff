@@ -6,6 +6,7 @@ authors:
   - family-names: "BaniYounis"
     given-names: "Yacoub"
     affiliation: "NEXKERNEL"
+doi: "10.5281/zenodo.23750373"
 repository-code: "https://github.com/NexKernelSecurity/opencpe-ics"
 license: Apache-2.0
 version: 0.1.0
