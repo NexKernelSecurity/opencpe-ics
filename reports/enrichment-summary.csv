@@ -324,6 +324,7 @@ CVE-2026-62650,review,low,o:siemens:reyrolle_7sr5_firmware(low)
 CVE-2026-62652,review,low,o:siemens:reyrolle_7sr5_firmware(low)
 CVE-2026-62653,review,low,o:siemens:reyrolle_7sr5_firmware(low)
 CVE-2026-62654,review,low,o:siemens:reyrolle_7sr5_firmware(low)
+CVE-2026-63017,not in NVD corpus,,
 CVE-2026-63035,review,low,o:o6_automation:open62541_firmware(low)
 CVE-2026-63133,review,low,a:cisagov:malcolm(low)
 CVE-2026-63134,review,low,a:cisagov:malcolm(low)
@@ -339,6 +340,7 @@ CVE-2026-63357,feed,high,a:siemens:simatic_s7-1500_software_controller_cpu_1507s
 CVE-2026-63362,review,low,o:o6_automation:open62541_firmware(low)
 CVE-2026-63559,review,low,o:o6_automation:open62541_firmware(low)
 CVE-2026-63713,review,low,a:toptech:tms7(low)|a:toptech:tophat(low)
+CVE-2026-63774,not in NVD corpus,,
 CVE-2026-63810,feed,high,o:linux:linux_kernel(high)
 CVE-2026-6411,review,low,a:maxhub:pivot_client(low)
 CVE-2026-64538,feed,high,o:linux:linux_kernel(high)
