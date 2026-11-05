@@ -719,7 +719,6 @@ CVE-2026-20744,Deferred,0,0,False,2026-07-07,Hydro-Québec,ICSA-26-188-01,True
 CVE-2026-21404,Analyzed,1,0,False,2026-06-04,NAVTOR,ICSA-26-155-01,False
 CVE-2026-21653,Awaiting Analysis,0,0,False,2026-07-23,Johnson Controls,ICSA-26-204-01,True
 CVE-2026-21655,Awaiting Analysis,0,0,False,2026-07-23,Johnson Controls,ICSA-26-204-01,True
-CVE-2026-21661,Awaiting Analysis,0,0,False,2026-05-05,Johnson Controls Inc.,ICSA-26-125-05,True
 CVE-2026-21662,Analyzed,1,0,False,2026-07-30,Johnson Controls Inc.,ICSA-26-211-02,False
 CVE-2026-21925,Modified,17,0,True,2026-05-12,Siemens,ICSA-26-134-10,False
 CVE-2026-21932,Modified,17,28,True,2026-05-12,Siemens,ICSA-26-134-10,False
