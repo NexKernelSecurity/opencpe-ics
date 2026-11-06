@@ -157,7 +157,7 @@ CVE-2025-13162,Awaiting Analysis,0,0,False,2026-06-23,ABB,ICSA-26-195-01,True
 CVE-2025-13223,Analyzed,2,0,True,2026-07-14,Siemens,ICSA-26-202-06,False
 CVE-2025-13465,Modified,1,358,False,2026-06-02,Siemens,ICSA-26-188-05,False
 CVE-2025-1352,Modified,1,0,False,2026-06-02,Siemens,ICSA-26-188-05,False
-CVE-2025-13601,Modified,102,61,False,2026-06-02,Siemens,ICSA-26-188-05,False
+CVE-2025-13601,Modified,102,60,False,2026-06-02,Siemens,ICSA-26-188-05,False
 CVE-2025-1376,Modified,1,0,False,2026-06-02,Siemens,ICSA-26-188-05,False
 CVE-2025-14272,Awaiting Analysis,0,0,False,2026-06-16,Rockwell Automation,ICSA-26-167-01,True
 CVE-2025-14771,Analyzed,1,0,False,2026-06-03,ABB,ICSA-26-195-03,False
