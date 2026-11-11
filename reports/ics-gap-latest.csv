@@ -1382,10 +1382,10 @@ CVE-2026-64413,Modified,14,0,False,2026-10-13,Siemens,ICSA-26-295-11,False
 CVE-2026-64422,Modified,13,0,False,2026-10-13,Siemens,ICSA-26-295-11,False
 CVE-2026-64423,Modified,9,0,False,2026-10-13,Siemens,ICSA-26-295-11,False
 CVE-2026-64425,Modified,10,0,False,2026-10-13,Siemens,ICSA-26-295-11,False
-CVE-2026-64538,Awaiting Analysis,0,0,False,2026-10-13,Siemens,ICSA-26-295-11,True
-CVE-2026-64545,Awaiting Analysis,0,0,False,2026-10-13,Siemens,ICSA-26-295-11,True
-CVE-2026-64552,Awaiting Analysis,0,0,False,2026-10-13,Siemens,ICSA-26-295-11,True
-CVE-2026-64560,Awaiting Analysis,0,0,False,2026-10-13,Siemens,ICSA-26-295-11|ICSA-26-295-16,True
+CVE-2026-64538,Undergoing Analysis,0,0,False,2026-10-13,Siemens,ICSA-26-295-11,True
+CVE-2026-64545,Undergoing Analysis,0,0,False,2026-10-13,Siemens,ICSA-26-295-11,True
+CVE-2026-64552,Undergoing Analysis,0,0,False,2026-10-13,Siemens,ICSA-26-295-11,True
+CVE-2026-64560,Undergoing Analysis,0,0,False,2026-10-13,Siemens,ICSA-26-295-11|ICSA-26-295-16,True
 CVE-2026-64629,Awaiting Analysis,0,0,False,2026-08-11,Siemens,ICSA-26-225-10,True
 CVE-2026-64887,Awaiting Analysis,0,0,False,2026-08-13,Johnson Controls Inc.,ICSA-26-225-03,True
 CVE-2026-64892,Deferred,0,0,False,2026-10-01,Johnson Controls,ICSA-26-274-04,True
