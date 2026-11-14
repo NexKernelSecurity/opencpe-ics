@@ -412,7 +412,6 @@ CVE-2026-8066,feed,medium,o:hitachienergy:rtu520_firmware(medium)|o:hitachienerg
 CVE-2026-8067,feed,medium,o:hitachienergy:rtu520_firmware(medium)|o:hitachienergy:rtu530_firmware(medium)|o:hitachienergy:rtu540_firmware(medium)|o:hitachienergy:rtu560_firmware(medium)
 CVE-2026-81305,review,low,o:carecam:hmt.cm2507_firmware(low)
 CVE-2026-81321,review,low,o:carecam:hmt.cm2507_firmware(low)
-CVE-2026-8153,review,low,a:universal-robots:polyscope_5(low)
 CVE-2026-81630,review,low,o:botslab:g980h_firmware(low)
 CVE-2026-81821,review,low,a:aveva:pipeline_integrity_monitor(low)
 CVE-2026-81822,review,low,a:aveva:pipeline_integrity_monitor(low)

@@ -1276,7 +1276,6 @@ CVE-2026-8067,Awaiting Analysis,0,0,False,2026-09-29,Hitachi Energy,ICSA-26-279-
 CVE-2026-8085,Analyzed,1,0,False,2026-07-16,Rockwell Automation,ICSA-26-197-01,False
 CVE-2026-81305,Deferred,0,0,False,2026-09-15,CareCam,ICSA-26-258-08,True
 CVE-2026-81321,Deferred,0,0,False,2026-09-15,CareCam,ICSA-26-258-08,True
-CVE-2026-8153,Awaiting Analysis,0,0,False,2026-05-14,Universal Robots,ICSA-26-134-17,True
 CVE-2026-81630,Deferred,0,0,False,2026-09-24,Botslab,ICSA-26-267-01,True
 CVE-2026-81821,Deferred,0,0,False,2026-09-10,AVEVA,ICSA-26-253-01,True
 CVE-2026-81822,Deferred,0,0,False,2026-09-10,AVEVA,ICSA-26-253-01,True
