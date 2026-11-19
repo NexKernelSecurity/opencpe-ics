@@ -876,7 +876,6 @@ CVE-2026-41989,Modified,3,0,False,2026-07-14,Siemens,ICSA-26-209-04|ICSA-26-295-
 CVE-2026-42496,Modified,1,5,False,2026-10-13,Siemens,ICSA-26-295-11,False
 CVE-2026-42497,Modified,1,0,False,2026-10-13,Siemens,ICSA-26-295-11,False
 CVE-2026-42929,Analyzed,1,0,False,2026-05-28,Danelec,ICSA-26-148-01,False
-CVE-2026-4293,Deferred,0,0,False,2026-05-19,Kieback & Peter,ICSA-26-139-05,True
 CVE-2026-42932,Deferred,0,0,False,2026-06-11,Naxclow,ICSA-26-162-02,True
 CVE-2026-42933,Deferred,0,0,False,2026-07-23,Pronetiqs,ICSA-26-204-04,True
 CVE-2026-42941,Analyzed,1,0,False,2026-05-28,Danelec,ICSA-26-148-01,False
@@ -1249,7 +1248,7 @@ CVE-2026-64413,Modified,14,0,False,2026-10-13,Siemens,ICSA-26-295-11,False
 CVE-2026-64422,Modified,13,0,False,2026-10-13,Siemens,ICSA-26-295-11,False
 CVE-2026-64423,Modified,9,0,False,2026-10-13,Siemens,ICSA-26-295-11,False
 CVE-2026-64425,Modified,10,0,False,2026-10-13,Siemens,ICSA-26-295-11,False
-CVE-2026-64538,Undergoing Analysis,8,0,False,2026-10-13,Siemens,ICSA-26-295-11,False
+CVE-2026-64538,Analyzed,13,0,False,2026-10-13,Siemens,ICSA-26-295-11,False
 CVE-2026-64545,Analyzed,6,0,False,2026-10-13,Siemens,ICSA-26-295-11,False
 CVE-2026-64552,Analyzed,10,0,False,2026-10-13,Siemens,ICSA-26-295-11,False
 CVE-2026-64560,Analyzed,9,0,False,2026-10-13,Siemens,ICSA-26-295-11|ICSA-26-295-16,False
@@ -1404,11 +1403,6 @@ CVE-2026-85478,Deferred,0,0,False,2026-09-15,CareCam,ICSA-26-258-08,True
 CVE-2026-85479,Awaiting Analysis,0,0,False,2026-10-08,Grid Protection Alliance,ICSA-26-281-02,True
 CVE-2026-85496,Deferred,0,0,False,2026-09-24,Botslab,ICSA-26-267-01,True
 CVE-2026-85497,Deferred,0,0,False,2026-09-15,CareCam,ICSA-26-258-08,True
-CVE-2026-8598,Deferred,0,0,False,2026-05-19,ZKTeco,ICSA-26-139-04,True
-CVE-2026-8602,Analyzed,1,0,True,2026-05-19,ScadaBR,ICSA-26-139-03,False
-CVE-2026-8603,Analyzed,1,0,True,2026-05-19,ScadaBR,ICSA-26-139-03,False
-CVE-2026-8604,Analyzed,1,0,True,2026-05-19,ScadaBR,ICSA-26-139-03,False
-CVE-2026-8605,Analyzed,1,0,True,2026-05-19,ScadaBR,ICSA-26-139-03,False
 CVE-2026-86520,Deferred,0,0,False,2026-09-17,Bransys,ICSA-26-260-01,True
 CVE-2026-86689,Deferred,0,0,False,2026-09-17,Bransys,ICSA-26-260-01,True
 CVE-2026-87020,Awaiting Analysis,0,0,True,2026-09-10,Orthanc,ICSMA-26-253-02,False
