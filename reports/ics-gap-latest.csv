@@ -523,10 +523,10 @@ CVE-2026-120298,Received,0,0,False,2026-11-17,Dorsett Controls,ICSA-26-321-01,Tr
 CVE-2026-12087,Deferred,0,0,False,2026-10-13,Siemens,ICSA-26-295-11,True
 CVE-2026-12352,Awaiting Analysis,0,0,False,2026-07-07,Digi International,ICSA-26-188-07,True
 CVE-2026-12390,Analyzed,1,0,True,2026-06-18,AzeoTech,ICSA-26-169-02,False
-CVE-2026-124281,NOT_IN_NVD,0,0,False,2026-11-19,Elecbrakes,ICSA-26-323-02,True
+CVE-2026-124281,Received,0,0,False,2026-11-19,Elecbrakes,ICSA-26-323-02,True
 CVE-2026-12473,Deferred,0,0,False,2026-06-25,Open Health Imaging Foundation (OHIF),ICSMA-26-176-02,True
-CVE-2026-125132,NOT_IN_NVD,0,0,False,2026-11-19,libumqtt,ICSA-26-323-03,True
-CVE-2026-125273,NOT_IN_NVD,0,0,False,2026-11-19,Elecbrakes,ICSA-26-323-02,True
+CVE-2026-125132,Received,0,0,False,2026-11-19,libumqtt,ICSA-26-323-03,True
+CVE-2026-125273,Received,0,0,False,2026-11-19,Elecbrakes,ICSA-26-323-02,True
 CVE-2026-12562,Deferred,0,0,False,2026-07-30,Toptech Systems,ICSA-26-211-03,True
 CVE-2026-12578,Deferred,0,0,False,2026-06-25,Delta Electronics,ICSA-26-176-06,True
 CVE-2026-126088,Received,0,0,False,2026-11-19,Autonomy Logic,ICSA-26-323-01,True
@@ -1491,7 +1491,7 @@ CVE-2026-96587,Awaiting Analysis,0,0,False,2026-09-29,Viidure,ICSA-26-272-07,Tru
 CVE-2026-96613,Deferred,0,0,False,2026-10-01,Meari,ICSA-26-274-06,True
 CVE-2026-96616,Deferred,0,0,False,2026-10-22,Kiloview,ICSA-26-295-01,True
 CVE-2026-9669,Awaiting Analysis,0,0,True,2026-10-13,Siemens,ICSA-26-295-11,False
-CVE-2026-96805,NOT_IN_NVD,0,0,False,2026-11-19,Elecbrakes,ICSA-26-323-02,True
+CVE-2026-96805,Received,0,0,False,2026-11-19,Elecbrakes,ICSA-26-323-02,True
 CVE-2026-9716,Analyzed,1,0,False,2026-06-09,Schneider Electric,ICSA-26-176-07,False
 CVE-2026-9717,Analyzed,1,0,False,2026-06-09,Schneider Electric,ICSA-26-176-07,False
 CVE-2026-9718,Analyzed,1,0,False,2026-06-09,Schneider Electric,ICSA-26-176-07,False

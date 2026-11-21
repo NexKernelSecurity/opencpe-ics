@@ -168,10 +168,10 @@ CVE-2026-120271,feed,high,a:dorsettcontrols:infoscan(high)
 CVE-2026-120298,feed,high,a:dorsettcontrols:infoscan(high)
 CVE-2026-12087,review,low,a:pevans:socket(low)
 CVE-2026-12352,review,low,a:digi:one_sp_/_sp_ia_/_ia(low)|a:digi:portserver_ts_1/2/4(low)
-CVE-2026-124281,not in NVD corpus,,
+CVE-2026-124281,review,low,a:elecbrakes:eb2(low)|a:elecbrakes:vm1(low)|o:elecbrakes:elbc2000_firmware(low)
 CVE-2026-12473,review,low,a:open_health_imaging_foundation:dicom_web_viewer_framework(low)
-CVE-2026-125132,not in NVD corpus,,
-CVE-2026-125273,not in NVD corpus,,
+CVE-2026-125132,review,low,a:libumqtt:libumqtt(low)
+CVE-2026-125273,review,low,a:elecbrakes:eb2(low)|a:elecbrakes:vm1(low)|o:elecbrakes:elbc2000_firmware(low)
 CVE-2026-12562,review,low,a:toptech:multiload_ii+(low)|a:toptech:rcu_ii+(low)
 CVE-2026-12578,review,low,a:deltaww:dtmsoft(low)
 CVE-2026-126088,review,low,o:autonomy_logic:openplc_runtime_firmware(low)
@@ -533,7 +533,7 @@ CVE-2026-9653,feed,high,a:rockwellautomation:1756-en2_1756-en3(low)|o:rockwellau
 CVE-2026-96587,review,low,a:viidure:dashcam_android(low)
 CVE-2026-96613,review,low,a:meari:iot_cloud_platform_openapi_service(low)
 CVE-2026-96616,feed,medium,o:kiloview:e3_firmware(medium)
-CVE-2026-96805,not in NVD corpus,,
+CVE-2026-96805,review,low,a:elecbrakes:eb2(low)|a:elecbrakes:vm1(low)|o:elecbrakes:elbc2000_firmware(low)
 CVE-2026-97212,review,low,a:monta:monta.app(low)
 CVE-2026-97363,review,low,a:monta:monta.app(low)
 CVE-2026-97851,review,low,a:j4care:dcm4chee-arc-light(low)
