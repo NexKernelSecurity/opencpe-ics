@@ -507,7 +507,7 @@ CVE-2026-114595,Awaiting Analysis,0,0,False,2026-10-27,The EPICS Community,ICSA-
 CVE-2026-114596,Awaiting Analysis,0,0,False,2026-10-27,The EPICS Community,ICSA-26-300-01,True
 CVE-2026-114597,Awaiting Analysis,0,0,False,2026-10-27,The EPICS Community,ICSA-26-300-01,True
 CVE-2026-114598,Awaiting Analysis,0,0,False,2026-10-27,The EPICS Community,ICSA-26-300-01,True
-CVE-2026-117659,Received,0,0,False,2026-11-17,Dorsett Controls,ICSA-26-321-01,True
+CVE-2026-117659,Awaiting Analysis,0,0,False,2026-11-17,Dorsett Controls,ICSA-26-321-01,True
 CVE-2026-11796,Awaiting Analysis,0,0,False,2026-09-29,Hitachi Energy,ICSA-26-279-03,True
 CVE-2026-11822,Modified,1,0,False,2026-10-13,Siemens,ICSA-26-295-15,False
 CVE-2026-11824,Modified,1,0,False,2026-10-13,Siemens,ICSA-26-295-15,False
@@ -515,21 +515,21 @@ CVE-2026-11833,Deferred,0,0,False,2026-06-25,Yokogawa,ICSA-26-176-01,True
 CVE-2026-11856,Modified,1,0,True,2026-09-01,Hitachi Energy,ICSA-26-293-05,False
 CVE-2026-11889,Awaiting Analysis,0,0,False,2026-07-16,SALTO,ICSA-26-197-07,True
 CVE-2026-11917,Awaiting Analysis,0,0,False,2026-07-14,Rockwell Automation,ICSA-26-204-05,True
-CVE-2026-120157,Received,0,0,False,2026-11-17,Dorsett Controls,ICSA-26-321-01,True
-CVE-2026-120255,Received,0,0,False,2026-11-17,Dorsett Controls,ICSA-26-321-01,True
-CVE-2026-120260,Received,0,0,False,2026-11-17,Dorsett Controls,ICSA-26-321-01,True
-CVE-2026-120271,Received,0,0,False,2026-11-17,Dorsett Controls,ICSA-26-321-01,True
-CVE-2026-120298,Received,0,0,False,2026-11-17,Dorsett Controls,ICSA-26-321-01,True
+CVE-2026-120157,Awaiting Analysis,0,0,False,2026-11-17,Dorsett Controls,ICSA-26-321-01,True
+CVE-2026-120255,Awaiting Analysis,0,0,False,2026-11-17,Dorsett Controls,ICSA-26-321-01,True
+CVE-2026-120260,Awaiting Analysis,0,0,False,2026-11-17,Dorsett Controls,ICSA-26-321-01,True
+CVE-2026-120271,Awaiting Analysis,0,0,False,2026-11-17,Dorsett Controls,ICSA-26-321-01,True
+CVE-2026-120298,Awaiting Analysis,0,0,False,2026-11-17,Dorsett Controls,ICSA-26-321-01,True
 CVE-2026-12087,Deferred,0,0,False,2026-10-13,Siemens,ICSA-26-295-11,True
 CVE-2026-12352,Awaiting Analysis,0,0,False,2026-07-07,Digi International,ICSA-26-188-07,True
 CVE-2026-12390,Analyzed,1,0,True,2026-06-18,AzeoTech,ICSA-26-169-02,False
-CVE-2026-124281,Received,0,0,False,2026-11-19,Elecbrakes,ICSA-26-323-02,True
+CVE-2026-124281,Awaiting Analysis,0,0,False,2026-11-19,Elecbrakes,ICSA-26-323-02,True
 CVE-2026-12473,Deferred,0,0,False,2026-06-25,Open Health Imaging Foundation (OHIF),ICSMA-26-176-02,True
-CVE-2026-125132,Received,0,0,False,2026-11-19,libumqtt,ICSA-26-323-03,True
-CVE-2026-125273,Received,0,0,False,2026-11-19,Elecbrakes,ICSA-26-323-02,True
+CVE-2026-125132,Awaiting Analysis,0,0,False,2026-11-19,libumqtt,ICSA-26-323-03,True
+CVE-2026-125273,Awaiting Analysis,0,0,False,2026-11-19,Elecbrakes,ICSA-26-323-02,True
 CVE-2026-12562,Deferred,0,0,False,2026-07-30,Toptech Systems,ICSA-26-211-03,True
 CVE-2026-12578,Deferred,0,0,False,2026-06-25,Delta Electronics,ICSA-26-176-06,True
-CVE-2026-126088,Received,0,0,False,2026-11-19,Autonomy Logic,ICSA-26-323-01,True
+CVE-2026-126088,Awaiting Analysis,0,0,False,2026-11-19,Autonomy Logic,ICSA-26-323-01,True
 CVE-2026-12659,Awaiting Analysis,0,0,False,2026-07-16,Rockwell Automation,ICSA-26-197-08,True
 CVE-2026-12661,Awaiting Analysis,0,0,False,2026-09-01,Rockwell Automation,ICSA-26-244-06,True
 CVE-2026-12663,Awaiting Analysis,0,0,False,2026-09-03,Rockwell Automation,ICSA-26-246-03,True
@@ -1491,7 +1491,7 @@ CVE-2026-96587,Awaiting Analysis,0,0,False,2026-09-29,Viidure,ICSA-26-272-07,Tru
 CVE-2026-96613,Deferred,0,0,False,2026-10-01,Meari,ICSA-26-274-06,True
 CVE-2026-96616,Deferred,0,0,False,2026-10-22,Kiloview,ICSA-26-295-01,True
 CVE-2026-9669,Awaiting Analysis,0,0,True,2026-10-13,Siemens,ICSA-26-295-11,False
-CVE-2026-96805,Received,0,0,False,2026-11-19,Elecbrakes,ICSA-26-323-02,True
+CVE-2026-96805,Awaiting Analysis,0,0,False,2026-11-19,Elecbrakes,ICSA-26-323-02,True
 CVE-2026-9716,Analyzed,1,0,False,2026-06-09,Schneider Electric,ICSA-26-176-07,False
 CVE-2026-9717,Analyzed,1,0,False,2026-06-09,Schneider Electric,ICSA-26-176-07,False
 CVE-2026-9718,Analyzed,1,0,False,2026-06-09,Schneider Electric,ICSA-26-176-07,False
