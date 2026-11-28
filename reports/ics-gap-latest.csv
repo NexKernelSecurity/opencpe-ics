@@ -872,7 +872,6 @@ CVE-2026-38059,Awaiting Analysis,0,0,False,2026-07-02,ST Engineering iDirect,ICS
 CVE-2026-39453,Awaiting Analysis,0,0,False,2026-10-08,Red Lion Controls,ICSA-26-281-01,True
 CVE-2026-39460,Awaiting Analysis,0,0,False,2026-10-08,Red Lion Controls,ICSA-26-281-01,True
 CVE-2026-40355,Modified,1,0,False,2026-07-14,Siemens,ICSA-26-209-04|ICSA-26-295-11,False
-CVE-2026-40425,Analyzed,1,0,False,2026-05-28,Danelec,ICSA-26-148-01,False
 CVE-2026-40430,Deferred,0,0,False,2026-07-23,Pronetiqs,ICSA-26-204-04,True
 CVE-2026-40624,Awaiting Analysis,0,0,False,2026-06-18,AVer,ICSA-26-169-01,True
 CVE-2026-40702,Deferred,0,0,False,2026-06-25,EVoke Systems,ICSA-26-176-02,True
@@ -880,13 +879,10 @@ CVE-2026-41918,Deferred,0,0,False,2026-06-02,Siemens,ICSA-26-188-05,True
 CVE-2026-41989,Modified,3,0,False,2026-07-14,Siemens,ICSA-26-209-04|ICSA-26-295-11,False
 CVE-2026-42496,Modified,1,5,False,2026-10-13,Siemens,ICSA-26-295-11,False
 CVE-2026-42497,Modified,1,0,False,2026-10-13,Siemens,ICSA-26-295-11,False
-CVE-2026-42929,Analyzed,1,0,False,2026-05-28,Danelec,ICSA-26-148-01,False
 CVE-2026-42932,Deferred,0,0,False,2026-06-11,Naxclow,ICSA-26-162-02,True
 CVE-2026-42933,Deferred,0,0,False,2026-07-23,Pronetiqs,ICSA-26-204-04,True
-CVE-2026-42941,Analyzed,1,0,False,2026-05-28,Danelec,ICSA-26-148-01,False
 CVE-2026-42945,Modified,13,47,True,2026-06-30,Hitachi Energy,ICSA-26-188-03,False
 CVE-2026-42947,Deferred,0,0,False,2026-06-11,Naxclow,ICSA-26-162-02,True
-CVE-2026-42951,Analyzed,1,0,False,2026-05-28,Danelec,ICSA-26-148-01,False
 CVE-2026-42952,Deferred,0,0,False,2026-07-07,Hydro-Québec,ICSA-26-188-01,True
 CVE-2026-42953,Awaiting Analysis,0,0,True,2026-07-07,Labcenter Electronics,ICSA-26-188-06,False
 CVE-2026-42958,Awaiting Analysis,0,0,True,2026-07-07,Labcenter Electronics,ICSA-26-188-06,False
@@ -934,7 +930,6 @@ CVE-2026-43503,Modified,11,37,False,2026-10-13,Siemens,ICSA-26-295-16,False
 CVE-2026-44383,Deferred,0,0,False,2026-07-07,Hydro-Québec,ICSA-26-188-01,True
 CVE-2026-44414,Awaiting Analysis,0,0,False,2026-10-13,Siemens,ICSA-26-295-09|ICSA-26-295-17,True
 CVE-2026-44415,Awaiting Analysis,0,0,False,2026-10-13,Siemens,ICSA-26-295-09|ICSA-26-295-17,True
-CVE-2026-44611,Analyzed,1,0,False,2026-05-28,Danelec,ICSA-26-148-01,False
 CVE-2026-44622,Deferred,0,0,False,2026-06-25,EVoke Systems,ICSA-26-176-02,True
 CVE-2026-44628,Deferred,0,0,False,2026-06-30,OFFIS,ICSMA-26-181-01,True
 CVE-2026-44955,Deferred,0,0,False,2026-07-23,Pronetiqs,ICSA-26-204-04,True
@@ -1143,7 +1138,6 @@ CVE-2026-53356,Modified,14,0,False,2026-10-13,Siemens,ICSA-26-295-16,False
 CVE-2026-53358,Modified,12,0,False,2026-10-13,Siemens,ICSA-26-295-16,False
 CVE-2026-53362,Analyzed,6,0,False,2026-10-13,Siemens,ICSA-26-295-16,False
 CVE-2026-53400,Modified,7,0,False,2026-10-13,Siemens,ICSA-26-295-11,False
-CVE-2026-5386,Deferred,0,0,False,2026-05-28,KMW,ICSA-26-148-06,True
 CVE-2026-54429,Deferred,0,0,False,2026-07-14,Siemens,ICSA-26-209-03,True
 CVE-2026-54477,Deferred,0,0,False,2026-07-02,Gardyn,ICSA-26-183-03,True
 CVE-2026-54479,Deferred,0,0,False,2026-06-25,EVoke Systems,ICSA-26-176-02,True
@@ -1179,7 +1173,6 @@ CVE-2026-57262,Awaiting Analysis,0,0,False,2026-08-11,Siemens,ICSA-26-225-13,Tru
 CVE-2026-57263,Awaiting Analysis,0,0,False,2026-08-11,Siemens,ICSA-26-225-13,True
 CVE-2026-57432,Modified,1,0,False,2026-10-13,Siemens,ICSA-26-295-11,False
 CVE-2026-57433,Modified,1,0,False,2026-10-13,Siemens,ICSA-26-295-11,False
-CVE-2026-5768,Deferred,0,0,False,2026-05-28,Fourth Frontier,ICSMA-26-148-01,True
 CVE-2026-57896,Awaiting Analysis,0,0,True,2026-07-16,AutomationDirect,ICSA-26-197-04,False
 CVE-2026-58051,Modified,1,0,False,2026-10-13,Siemens,ICSA-26-295-11,False
 CVE-2026-58080,Analyzed,1,0,False,2026-10-15,Eclipse Foundation,ICSA-26-288-01,False
@@ -1293,7 +1286,6 @@ CVE-2026-67578,Deferred,0,0,False,2026-08-25,"FURUNO ELECTRIC CO.,LTD.",ICSA-26-
 CVE-2026-68067,Deferred,0,0,False,2026-08-11,Quanovate Tech Inc. (operating as Mira / Mira Care),ICSMA-26-223-01,True
 CVE-2026-68068,Awaiting Analysis,0,0,False,2026-09-29,Toptech Systems,ICSA-26-272-02,True
 CVE-2026-68070,Awaiting Analysis,0,0,False,2026-09-15,Digital Watchdog,ICSA-26-258-01,True
-CVE-2026-6824,Awaiting Analysis,0,0,False,2026-05-28,CP Plus,ICSA-26-148-05,True
 CVE-2026-68950,Awaiting Analysis,0,0,False,2026-09-15,Digital Watchdog,ICSA-26-258-01,True
 CVE-2026-68953,Awaiting Analysis,0,0,False,2026-09-15,Digital Watchdog,ICSA-26-258-01,True
 CVE-2026-68954,Awaiting Analysis,0,0,False,2026-09-29,Toptech Systems,ICSA-26-272-02,True
@@ -1345,7 +1337,6 @@ CVE-2026-77393,Awaiting Analysis,0,0,True,2026-09-03,Inductive Automation,ICSA-2
 CVE-2026-77477,NOT_IN_NVD,0,0,False,2026-09-03,OPCFoundation,ICSA-26-246-01,True
 CVE-2026-77696,Modified,6,0,True,2026-10-13,Siemens,ICSA-26-295-11,False
 CVE-2026-77847,Awaiting Analysis,0,0,False,2026-09-03,Tycon Systems,ICSA-26-246-08,True
-CVE-2026-7786,Deferred,0,0,False,2026-05-28,Jinan USR IOT Technology Limited (PUSR),ICSA-26-148-02,True
 CVE-2026-77960,Deferred,0,0,False,2026-09-17,Bransys,ICSA-26-260-01,True
 CVE-2026-77966,Deferred,0,0,False,2026-08-27,Ebyte,ICSA-26-239-05,True
 CVE-2026-77967,Deferred,0,0,False,2026-09-24,Botslab,ICSA-26-267-01,True
@@ -1432,9 +1423,6 @@ CVE-2026-89208,Awaiting Analysis,0,0,False,2026-10-13,Siemens,ICSA-26-295-04|ICS
 CVE-2026-89209,Deferred,0,0,False,2026-10-26,Siemens,ICSA-26-302-01,True
 CVE-2026-8927,Modified,1,0,True,2026-09-01,Hitachi Energy,ICSA-26-293-05,False
 CVE-2026-8932,Modified,1,0,True,2026-09-01,Hitachi Energy,ICSA-26-293-05,False
-CVE-2026-9037,Awaiting Analysis,0,0,False,2026-05-28,XCharge,ICSA-26-148-08,True
-CVE-2026-9038,Awaiting Analysis,0,0,False,2026-05-28,XCharge,ICSA-26-148-08,True
-CVE-2026-9039,Awaiting Analysis,0,0,False,2026-05-28,XCharge,ICSA-26-148-08,True
 CVE-2026-90443,Awaiting Analysis,0,0,False,2026-09-11,CISA,ICSA-26-254-01,True
 CVE-2026-90444,Awaiting Analysis,0,0,False,2026-09-11,CISA,ICSA-26-254-01,True
 CVE-2026-90445,Awaiting Analysis,0,0,False,2026-09-11,CISA,ICSA-26-254-01,True
